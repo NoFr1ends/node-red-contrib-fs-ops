@@ -1,4 +1,6 @@
-# node-red-contrib-fs-ops
+**Notice:** This is a temporary package to add recursive functionality to mkdir. If this feature isn't needed use ``node-red-contrib-fs-ops`` instead.
+
+# node-red-contrib-fs-ops-coco
 A Node Red node for performing file system operations.
 
 This node is a wrapper around many of the functions in Node's file system library, which in turn is a wrapper around the standard POSIX filesystem functions.
