@@ -1,4 +1,4 @@
-**Notice:** This is a temporary package to add recursive functionality to mkdir. If this feature isn't needed use ``node-red-contrib-fs-ops`` instead.
+**Notice:** This is a temporary package to add recursive functionality to mkdir and fix direction deletion under Windows. If this feature isn't needed use ``node-red-contrib-fs-ops`` instead.
 
 # node-red-contrib-fs-ops-coco
 A Node Red node for performing file system operations.
