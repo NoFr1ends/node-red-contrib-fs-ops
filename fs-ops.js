@@ -286,8 +286,8 @@ module.exports = function(RED) {
             var filename = RED.util.evaluateNodeProperty(node.filename, node.filenameType, node, msg);
 
             var deleteFile = function(file) {
-                var p = path.join(pathname, file);
-                if(fs.existsSync(filename)) {
+                var p = path.join(pathname ? pathname : "", file ? file : "");
+                if(fs.existsSync(p)) {
                     const stats = fs.lstatSync(p);
                     try {
                         if (stats.isFile()) {
